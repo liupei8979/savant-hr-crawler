@@ -1,4 +1,4 @@
-```markdown:README.md
+```
 # MLB Statcast 홈런 데이터 크롤러
 
 ## 개요
@@ -21,7 +21,7 @@
 1. 저장소 클론:
 ```
 
-git clone https://github.com/liupei8979/savant-hr-crawler.git
+git clone https://github.com/[사용자명]/savant-hr-crawler.git
 cd savant-hr-crawler
 
 ```
@@ -37,7 +37,7 @@ pip install selenium webdriver-manager
 다음 명령어로 크롤러를 실행합니다:
 ```
 
-python3 mlb_statcast_crawler.py
+python mlb_statcast_crawler.py
 
 ```
 
@@ -60,4 +60,6 @@ baseball_data/
 - 대량의 데이터 다운로드로 인해 시간이 오래 걸릴 수 있습니다.
 - 인터넷 연결 상태에 따라 오류가 발생할 수 있습니다.
 
+## 라이선스
+[여기에 라이선스 정보 추가]
 ```
