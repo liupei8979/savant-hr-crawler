@@ -14,36 +14,7 @@ os.makedirs(save_dir, exist_ok=True)
 
 # 경기장 ID 목록
 venues = [
-    {"id": "3313", "name": "NYY - Yankee Stadium"},
-    {"id": "22", "name": "LAD - Dodger Stadium"},
-    {"id": "2680", "name": "SD - Petco Park"},
-    {"id": "3289", "name": "NYM - Citi Field"},
-    {"id": "2681", "name": "PHI - Citizens Bank Park"},
-    {"id": "3312", "name": "MIN - Target Field"},
-    {"id": "2395", "name": "SF - Oracle Park"},
-    {"id": "5325", "name": "TEX - Globe Life Field"},
-    {"id": "3309", "name": "WSH - Nationals Park"},
-    {"id": "2889", "name": "STL - Busch Stadium"},
-    {"id": "4705", "name": "ATL - Truist Park"},
-    {"id": "680", "name": "SEA - T-Mobile Park"},
-    {"id": "4169", "name": "MIA - loanDepot Park"},
-    {"id": "2394", "name": "DET - Comerica Park"},
-    {"id": "32", "name": "MIL - American Family Field"},
-    {"id": "2392", "name": "HOU - Daikin Park"},
-    {"id": "15", "name": "AZ - Chase Field"},
-    {"id": "31", "name": "PIT - PNC Park"},
-    {"id": "2602", "name": "CIN - Great American Ball Park"},
-    {"id": "1", "name": "LAA - Angel Stadium"},
-    {"id": "3", "name": "BOS - Fenway Park"},
-    {"id": "14", "name": "TOR - Rogers Centre"},
-    {"id": "19", "name": "COL - Coors Field"},
-    {"id": "2", "name": "BAL - Oriole Park"},
-    {"id": "7", "name": "KC - Kauffman Stadium"},
-    {"id": "17", "name": "CHC - Wrigley Field"},
-    {"id": "5", "name": "CLE - Progressive Field"},
-    {"id": "4", "name": "CWS - Rate Field"},
-    {"id": "12", "name": "TB - Tropicana Field"},
-    {"id": "10", "name": "ATH - Oakland Coliseum"}
+        {"id": "4", "name": "CWS - Rate Field"},
 ]
 
 base_url = "https://baseballsavant.mlb.com/statcast_search?hfPT=&hfAB=home%5C.%5C.run%7C&hfGT=R%7C&hfPR=&hfZ=&hfStadium={venue_id}%7C&hfBBL=&hfNewZones=&hfPull=&hfC=&hfSea=2024%7C&hfSit=&player_type=batter&hfOuts=&hfOpponent=&pitcher_throws=&batter_stands=&hfSA=&game_date_gt=&game_date_lt=&hfMo=&hfTeam=&home_road=&hfRO=&position=&hfInfield=&hfOutfield=&hfInn=&hfBBT=&hfFlag=&metric_1=&group_by=name&min_pitches=0&min_results=0&min_pas=0&sort_col=pitches&player_event_sort=api_p_release_speed&sort_order=desc#results"
